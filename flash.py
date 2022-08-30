@@ -1,5 +1,3 @@
-# Python program to draw star
-# using Turtle Programming
 import turtle
 
 star = turtle.Turtle()
