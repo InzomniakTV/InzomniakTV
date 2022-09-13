@@ -1,3 +1,13 @@
+# ITP-100 Software Design
+# Student: Jeannotte, Michael
+# Instructor: Brown, Georgia
+# Date given to class: 9-12-2022
+# Date of Submission:
+# Description:
+# Input:
+# Output:
+# Additional Comments: V 1.0
+
 import turtle
 
 # object tr for turtle
