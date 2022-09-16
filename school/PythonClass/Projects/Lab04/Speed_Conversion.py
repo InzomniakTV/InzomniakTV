@@ -18,6 +18,6 @@ print('KPH\tMPH')
 print('--------------')
 
 # Print the speeds.
-for kph in range(START_SPEED, END_SPEED, INCREMENT)
-mph = kph * CONVERSION_FACTOR
-print()rint(f'{kph}\t{mph:.1f}')
+for kph in range(START_SPEED, END_SPEED, INCREMENT) :
+    mph = kph * CONVERSION_FACTOR
+    print(f'{kph}\t{mph:.1f}')
