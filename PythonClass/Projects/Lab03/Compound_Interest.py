@@ -15,4 +15,5 @@ n = int(input('Please enter Number of compounding periods per year: '))
 t = int(input('Please enter Number of years you would like to save: '))
 A = P * (pow((1 + r / n), n * t))
 
+
 print("Your compound Interest Balance would be:", round(A, 2))
