@@ -1,4 +1,5 @@
-# Number guesser v0.2
+# Inzomniak Public Code
+# Number Guessser v0.3
 
 from random import *
 x = (randint(1, 10))
