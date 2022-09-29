@@ -11,14 +11,15 @@ cash = 300000000
 print("Alright numbnuts, listen up.")
 print("You're gonna waste your life chasing GP.")
 bet = int(input("Enter your first bet, it's a 50/50 chance: "))
+print("Fuck yeah", int(bet), "is what your shitty bet was.")
 
 # Simple 50/50 flipper.
 def stake():
     fight = (randint(0, 1))
     if fight == 1:
-        print("{:,}".format(cash + bet))
+        print("Now you have {:,} gp".format(cash + bet))
     else:
-        print("{:,}".format(cash - bet))
+        print("Now you have {:,} gp".format(cash - bet))
 
 stake()
 
