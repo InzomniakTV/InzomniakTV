@@ -1,17 +1,16 @@
 # Inzomniak and Injured Sock Present -
 #########################################
-####### OSRS Python Gambler v1.0 ########
+####### OSRS Python Gambler v1.3 ########
 #########################################
-
 # Project Started 9/28/2022
 
 from random import *
 cash = 300000000
+bet = 50000000
 
 print("Alright numbnuts, listen up.")
 print("You're gonna waste your life chasing GP.")
-bet = int(input("Enter your first bet, it's a 50/50 chance: "))
-print("Fuck yeah", int(bet), "is what your shitty bet was.")
+input("When you press enter, you start with 300m, and will 50/50 you until 0.")
 
 # Simple 50/50 flipper.
 def stake():
@@ -21,7 +20,9 @@ def stake():
     else:
         print("Now you have {:,} gp".format(cash - bet))
 
-stake()
+while cash >= 0:
+    while bet >= cash:
+        stake()
 
 # I want this to do something where money auto sets it's denomination
 # when it goes over/under certain thresholds and for it to show it's
