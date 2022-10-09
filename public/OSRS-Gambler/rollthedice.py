@@ -20,13 +20,7 @@ def stake():
     else:
         print("Now you have {:,} gp".format(cash - bet))
 
-while cash >= 0:
-    while bet >= cash:
+while cash >= 50000000:
         stake()
-
-# I want this to do something where money auto sets it's denomination
-# when it goes over/under certain thresholds and for it to show it's
-# denomination whenever it prints the value "cash".  For now it's commented
-# because if you run the script it fails, but this is a placeholder for a
-# planned feature.  Will revisit later.
-# def main(money):
+    else
+        print("Game over.  Max Monies - ")
