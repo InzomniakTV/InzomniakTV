@@ -5,6 +5,7 @@
 # Project Started 9/28/2022
 
 from random import *
+
 cash = 300000000
 bet = 50000000
 
