@@ -12,4 +12,4 @@ me = int(input('Please enter your age.'))
 cindy = int(input('Please enter the age of Cindy.'))
 josh = int(input('Please enter the age of Josh.'))
 avg = float(me+cindy+josh)/3
-print(avg)
+print("{:.2f}".format(avg))
