@@ -2,15 +2,15 @@
 # Student: Jeannotte, Michael
 # Instructor: Brown, Georgia
 # Date given to class: 10/10/2022
-# Date of Submission: 10/10/2022
-# Description: Average out ages.
-# Input: 3 persons' age.
-# Output: Average age of the 3 people.
+# Date of Submission: 10/16/2022
+# Description: Get the shipping cost based off of weight.
+# Input: Weight
+# Output: Cost of shipping
 # Additional Comments: V 1.0
 
 
 
-weight_of_package = float(input("Enter weight of package: "))
+weight_of_package = float(input("How much does this ish weight, yo? "))
 shipping_charges = 0.0
 
 message = "Shipping charges = "

@@ -2,22 +2,22 @@
 # Student: Jeannotte, Michael
 # Instructor: Brown, Georgia
 # Date given to class: 10/10/2022
-# Date of Submission: 10/10/2022
-# Description: Average out ages.
-# Input: 3 persons' age.
-# Output: Average age of the 3 people.
+# Date of Submission: 10/16/2022
+# Description: Tell customer how many points they earned
+# Input: Book count
+# Output: Rewarded points
 # Additional Comments: V 1.0
 
 
 
-number_of_books = int(input("Enter the number of books: "))
+number_of_books = int(input("How many books did your lonely butt by "))
 message = ""
 
 if number_of_books < 0:
     message = "Error. Enter a positive number. \n" + \
               "Re-run program and try again."
 else:
-    message = "You are awared "
+    message = "Daaaamn bro here are your "
 
     if number_of_books >= 0 and number_of_books <= 1:
         message += "0 "

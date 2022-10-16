@@ -2,10 +2,10 @@
 # Student: Jeannotte, Michael
 # Instructor: Brown, Georgia
 # Date given to class: 10/10/2022
-# Date of Submission: 10/10/2022
-# Description: Average out ages.
-# Input: 3 persons' age.
-# Output: Average age of the 3 people.
+# Date of Submission: 10/16/2022
+# Description: Gets your discount based on total packsages bought
+# Input: number of packs bought
+# Output: Discount on sale
 # Additional Comments: V 1.0
 
 
