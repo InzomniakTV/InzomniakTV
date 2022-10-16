@@ -10,7 +10,7 @@
 
 
 
-number_of_books = int(input("How many books did your lonely butt by "))
+number_of_books = int(input("How many books did your lonely butt buy "))
 message = ""
 
 if number_of_books < 0:
