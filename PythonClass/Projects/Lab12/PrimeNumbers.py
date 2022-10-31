@@ -11,10 +11,12 @@
 
 import math
 
+num = int(input("Pick a number, any number!"))
+
 def primer(n):
-    if n == 2 or n == 3:#if n is 2 or 3 it's prime
+    if n == 2 or n == 3:
         return True
-    elif n%2 == 0:#if it's divisible by 2 otherwise, it isn't prime
+    elif n%2 == 0:
         return False
     else:
         for i in range(3, int(math.sqrt(n))+1, 2):
@@ -22,5 +24,8 @@ def primer(n):
                 return False
         return True
 
-num = int(input("Pick a number, any number!"))
-print(primer(num))
+if primer(num) == True:
+    print("Yay!  That's a prime number! :D")
+
+else:
+    print("Nope, not a prime number.  =[")
