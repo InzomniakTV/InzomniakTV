@@ -1,22 +1,10 @@
-# 1. PYTHON LISTS
-
-# Explanation: Creating a list...
-print("\nCreating a list...")
-mylist = ["apple", "banana", "cherry"]
-print(mylist)
-
-# Explanation:
-print("\nCreating another list, same elements, different name...")
-thislist = ["apple", "banana", "cherry"]
-print(thislist)
-
-# Explanation:
-print("\nLength of a list")
-thislist = ["apple", "banana", "cherry"]
-print(len(thislist))
-
-# 2. ACCESS
-
-# 3. CHANGE
-
-# 4. ADD
+numbers = []
+total = 0
+for i in range(20):
+    number = int(input('Enter a number as a integer: '))
+    numbers.append(number)
+    total += number
+print('The lowest number in the list is', min(numbers))
+print('The highest number in the list is', max(numbers))
+print('The total in the list is', total)
+print('The average in the list is', total / 20)
