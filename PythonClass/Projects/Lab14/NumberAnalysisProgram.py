@@ -23,3 +23,5 @@ print('The lowest number in the list is', min(numbers))
 print('The highest number in the list is', max(numbers))
 print('The total in the list is', total)
 print('The average in the list is', total / pickle)
+
+# Yeet
