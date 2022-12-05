@@ -2,8 +2,8 @@
 # to the video_times.txt file.
 
 def main():
-    # Get the number of videos in the project.
-    num_videos = int(input('How many videos are in the project? '))
+    # Get the number of videos in the folder.
+    num_videos = int(input('How many videos are in the folder? '))
 
     # Open the file to hold the running times.
     video_file = open('video_times.txt', 'w')
